@@ -1,0 +1,140 @@
+body{
+    background-color: #17202a;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.header{
+    background-color: #212f3c;
+    color: #fff;
+    max-width: 800px;
+    margin-top: 15px;
+    margin-left: 250px;
+    justify-content: space-between;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px #17202a;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    /* padding: 10px 0; */
+}
+.brand-logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+a:hover{
+    color: blue;
+}
+.get-started{
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 17px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.one{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.two{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 855px;
+}
+.content{
+    margin-left: 350px;
+}
+.content h1{
+    max-width: 600px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+    word-spacing: 10px;
+}
+.content p{
+    font-size: 20px;
+    margin-left: 30px;
+    word-spacing: 2px;
+    max-width: 600px;
+    text-align: center;
+}
+.start-mining{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+
+.bi-brightness-low-fill{
+    font-size: 30px;
+    color: #fff;
+}
+
+.bi-moon{
+    font-size: 30px;
+    color: #fff;
+}
+.man{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    top: 35%;
+}
+.man img{
+    width: 100%;
+    height: 100%;
+}
+.bitcoin{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    left: 25%;
+    margin-top: 60px;
+    position: absolute;
+}
+.bitcoin-1{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    left: 60%;
+    margin-top: 80px;
+    position: absolute;
+}
+.grass{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 30%;
+}
+.grass img{
+    width: 100%;
+    height: 100%;
+}
